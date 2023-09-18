@@ -751,9 +751,9 @@ h6 {
     margin-top: 55px
 }
 
-.cavani_tm_about .biography .left {
+/* .cavani_tm_about .biography .left {
     width: 40%
-}
+} */
 
 .cavani_tm_about .biography .left p {
     margin-bottom: 15px
@@ -1058,9 +1058,9 @@ h6 {
     width: 40%
 }
 
-.cavani_tm_about .resume .experience {
+/* .cavani_tm_about .resume .experience {
     width: 50%
-}
+} */
 
 .cavani_tm_about .univ {
     width: 100%;
@@ -1122,7 +1122,7 @@ h6 {
 }
 
 .cavani_tm_about .univ ul li .time {
-    width: 50%;
+    width: 30%;
     padding-right: 20px
 }
 
@@ -1136,7 +1136,7 @@ h6 {
 }
 
 .cavani_tm_about .univ ul li .place {
-    width: 50%;
+    width: 97%;
     padding-left: 20px
 }
 
@@ -2848,4 +2848,17 @@ li.li-tele{
 }
 .li-tele{
     width: 25.3333% !important;
+}
+.doteBeforText{
+    position: relative;
+}
+.doteBeforText::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #aaa4a4;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    left: -10px;
 }
